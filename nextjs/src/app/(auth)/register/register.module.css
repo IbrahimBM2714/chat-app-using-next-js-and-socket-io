@@ -1,0 +1,30 @@
+.container {
+  background-color: whitesmoke;
+  height: 70vh;
+  padding: 10px 50px;
+  width: 60%;
+  box-shadow: -10px 10px 5px 0px rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: -10px 10px 5px 0px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: -10px 10px 5px 0px rgba(0, 0, 0, 0.12);
+  color: black;
+  text-align: center;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.container form input {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.container form button {
+  background-color: #d5015b;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}

@@ -1,0 +1,51 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+}
+
+.form input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 25px 0px 0px 25px;
+}
+
+.form button {
+  width: 20%;
+  padding: 10px;
+  border-radius: 0px 25px 25px 0px;
+}
+
+.container {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.innerContainer {
+  padding: 5px 10px;
+}
+
+.containerSender {
+  display: flex;
+  justify-content: flex-end;
+  text-align: end;
+  color: white;
+}
+
+.containerReciever {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.sender {
+  background-color: #d5015b;
+  border-radius: 25px 0px 25px 25px;
+  width: 80%;
+}
+
+.reciever {
+  background-color: white;
+  border-radius: 0px 25px 25px 25px;
+  width: 80%;
+}
+
