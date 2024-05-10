@@ -26,13 +26,19 @@ https://github.com/IbrahimBM2714/chat-app-using-next-js-and-socket-io/assets/115
   <li>GITHUB_ID and GITHUB_SECRET keys are used for github authentication for next auth. To create one, login with your github account -> settings -> developer settings -> OAuth Apps -> New OAuth apps.</li>
   <li>HOST, PORT, USER, PASSWORD, and DATABASE are used to connected to the MySQL database on your local computer.</li>
   You will need to create your own MySQL database. Mine was called chatapp. The tables used are: message, user, and conversation. 
-  <li>user table:</li>
+  <li>user table stores the user information</li>
   
   ![image](https://github.com/IbrahimBM2714/chat-app-using-next-js-and-socket-io/assets/115867055/d7173276-ab45-4096-87c3-98906e077e79)
 
-  <li>conversation table: </li>
+  <li>conversation table stores two users who participate in a conversation </li>
 
   ![image](https://github.com/IbrahimBM2714/chat-app-using-next-js-and-socket-io/assets/115867055/bbb7b363-c423-4b74-9c8d-43ddc6eaf5c5)
 
   <p>Where user1 and user2 and the foreign keys to the user table</p>
+
+  <li>message table stores the individual message sent by a user from a conversation. </li>
+  
+  ![image](https://github.com/IbrahimBM2714/chat-app-using-next-js-and-socket-io/assets/115867055/9ae5aa86-9524-4b2d-b87c-24a7d8e7dd35)
+
+  <p>where userId is the foreign key to the user table and conversationId is the foreign key to the conversation table.</p>
 </ul>
