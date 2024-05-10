@@ -18,7 +18,6 @@ https://github.com/IbrahimBM2714/chat-app-using-next-js-and-socket-io/assets/115
   <li>mysql2</li>
   <li>socket.io & socket.io-client</li>
   <li>axios</li>
-  <li>axios</li>
   <li>bcrypt</li>
   </br>
   SOCKET-SERVER
@@ -31,6 +30,7 @@ https://github.com/IbrahimBM2714/chat-app-using-next-js-and-socket-io/assets/115
 <ul>
   <li>cd into the next js folder</li>
   <li>Run the command: <code>npm i</code> to install the node modules folder</li>
+  </br>
   After this, you need to provide some keys of your own. I had saved mine to an env file, which makes them inaccessible in this project.
   <p>This is the .env file</p>
   
@@ -38,14 +38,14 @@ https://github.com/IbrahimBM2714/chat-app-using-next-js-and-socket-io/assets/115
 
   <li>AUTH_SECRET is the next auth secret key. You can put any secret key here. I generated one using an online tool</li>
   <li>GITHUB_ID and GITHUB_SECRET keys are used for github authentication for next auth. To create one, login with your github account -> settings -> developer settings -> OAuth Apps -> New OAuth apps.</li>
-
+  </br>
   <p>This is the .env.local file. Next JS works with the .env.local file</p>
 
   ![image](https://github.com/IbrahimBM2714/chat-app-using-next-js-and-socket-io/assets/115867055/7c4894a4-843c-4cbf-8040-d6101d1da4f8)
 
   
   <li>NEXT_PUBLIC_SOCKET_SERVER is the endpoint where the socket io server is hosted, in my case I had hosted it on localhost using the IP address of my home
-  <li>NEXT_PUBLIC_HOST, NEXT_PUBLIC_PORT, NEXT_PUBLIC_USER, NEXT_PUBLIC_PASSWORD, and NEXT_PUBLIC_DATABASE are used to connected to the MySQL database on your local computer.</li>
+  <li>NEXT_PUBLIC_HOST, NEXT_PUBLIC_PORT, NEXT_PUBLIC_USER, NEXT_PUBLIC_PASSWORD, and NEXT_PUBLIC_DATABASE are used to connect to the MySQL database on your local computer.</li>
   You will need to create your own MySQL database. Mine was called chatapp. The tables used are message, user, and conversation. 
   <li>user table stores the user information</li>
   
