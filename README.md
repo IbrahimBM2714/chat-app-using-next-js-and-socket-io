@@ -12,6 +12,18 @@ https://github.com/IbrahimBM2714/chat-app-using-next-js-and-socket-io/assets/115
 <li>MySQL for the database</li>
 </ul>
 
+<h2>Necessary packages:</h2>
+<ul>
+  NEXT JS
+  <li>mysql2</li>
+  <li>socket.io & socket.io-client</li>
+  <li>axios</li>
+  <li>axios</li>
+  <li>bcrypt</li>
+  SOCKET-SERVER
+  <li>socket.io</li>
+</ul>
+
 <h3>Here how to launch the app</h3>
 <p>There are two folders in this project: nextjs and socket-server</p>
 <h3>To get started with the next js server:</h3>
