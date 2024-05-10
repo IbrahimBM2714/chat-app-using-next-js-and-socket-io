@@ -14,12 +14,13 @@ https://github.com/IbrahimBM2714/chat-app-using-next-js-and-socket-io/assets/115
 
 <h2>Necessary packages:</h2>
 <ul>
-  NEXT JS
+  FOR NEXT JS
   <li>mysql2</li>
   <li>socket.io & socket.io-client</li>
   <li>axios</li>
   <li>axios</li>
   <li>bcrypt</li>
+  </br>
   SOCKET-SERVER
   <li>socket.io</li>
 </ul>
